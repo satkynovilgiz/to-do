@@ -1,0 +1,108 @@
+/* App.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .ToDo {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2d3748;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  input {
+    padding: 12px;
+    font-size: 18px;
+    width: 100%;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #4f96f3;
+  }
+  
+  button {
+    background-color: #4f96f3;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #3b7dda;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  ul li {
+    background-color: #f7fafc;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  ul li:hover {
+    transform: translateX(5px);
+  }
+  
+  button.remove-btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    width: 50px;
+  }
+  
+  button.remove-btn:hover {
+    background-color: #e53e3e;
+  }
+  
+  div.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
